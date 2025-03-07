@@ -1,0 +1,45 @@
+import math
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+if()
+s = (a+b+c)/2
+
+area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(round(area,2))
+
+-----------------------------------------------------------
+
+
+num = int(input())
+
+if(num%2==0):
+    print("Even Number")
+
+else:
+    print("Odd Number")
+
+----------------------------------------------------------
+
+
+
+C = float(input())
+F = (9*C)/5+32
+
+
+
+-----------------------------------------------------------
+
+
+n = int(input())
+
+total = sum(int(input()) for _ in range(n))
+
+average = total / n
+
+print(f"the average is: {average:.2f}")
+    
+print(round(F,1))
